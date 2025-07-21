@@ -18,7 +18,7 @@ Example: [Slides repo for my course projects](https://lie-flat.github.io/slides/
 3. Change "workflow permissions" to "Read and write permission" in `Repo Settings` > `Actions` > `General`.
 4. Enable the `deploy` workflow in GitHub Actions
 5. Duplicate the `template` folder in the `slides` folder and rename it to your presentation name. (Don't forget to update the id in `package.json`)
-6. Edit the slides and optionally preview them locally with `pnpm -C <slide-subfolder-name> run dev` 
+6. Edit the slides and optionally preview them locally with `pnpm -F <slide-subfolder-name> run dev` 
 7. Commit your changes and push to GitHub
 8. Wait for the `deploy` workflow to finish
 9. Enable GitHub Pages on `gh-pages` branch
